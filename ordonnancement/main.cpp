@@ -14,7 +14,8 @@ int main(int argc, const char * argv[]) {
     cout<<"FCFS , SJF or RR \n";
     cin>>algo;
     transform(algo.begin(), algo.end(), algo.begin(), ::toupper);
-    
+    // AT: arrival time 
+   // ET : execution time 
     
     vector<vector<int> > info ; // on crée un vecteur pour storer les données <(AT,ET)>
     string file;                 // le chemin du fichier
