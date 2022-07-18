@@ -28,8 +28,6 @@ int main(int argc, const char * argv[]) {
     {
         objs[i].AT= info[i][0];
         objs[i].ET= info[i][1];
-        if (info[i].size()==3) // affecter la priorité si elle est donnée par l'utilisateur
-            objs[i].P= info[i][2];
         string a= to_string(i+1);
         objs[i].name= "p"+a;// on nomme les processus P(i)
     }
